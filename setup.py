@@ -13,7 +13,7 @@ setup(
     long_description=long_description,
     url="https://github.com/Centric-Technologies/gcp-secrets-python",
     packages=find_packages(),
-    namespaces=['centric'],
+    namespaces=['centric.secrets'],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
