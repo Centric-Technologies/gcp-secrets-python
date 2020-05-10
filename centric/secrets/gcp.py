@@ -2,7 +2,7 @@ import os
 from google.cloud import secretmanager
 
 def get_secret_value(secret_name, version='latest'):
-    is_production = os.getenv('IS_PRODUCTION', 'True') == "True"
+    is_production = os.getenv('IS_PRODUCTION', 'False') == "True"
     if not is_production:
         return os.environ[secret_name.upper()]
     
