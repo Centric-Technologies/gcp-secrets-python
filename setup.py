@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="gcp-secrets-python",
-    version="0.3.0",
+    version="0.3.1",
     author="Centric Technologies LTD",
     author_email="info@centric.bg",
     description="Allows convenient wrapper around Google Cloud Secrets Manager",
